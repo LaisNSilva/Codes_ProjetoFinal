@@ -1,0 +1,27 @@
+
+.itens{
+	font-family: "literata", sans-serif;
+	font-size:1.1rem;
+	color: #353333;
+	margin-left: 2rem;
+	max-width: 50rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr;
+	margin: 1rem;
+
+}
+
+
+.lista{
+	font-family: "lato", sans-serif;
+	font-size:1.1rem;
+	color: #353333;
+	margin-left: 2rem;
+	max-width: 50rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr;
+	margin: 1rem;
+
+}
