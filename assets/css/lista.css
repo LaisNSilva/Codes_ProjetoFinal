@@ -1,5 +1,5 @@
 
-.projeto-main{
+.lista-main{
 	display: flex;
 	background-color: #f2d7d7;
 	flex-wrap: wrap;
@@ -32,14 +32,10 @@
 
 }
 
-.row:nth-child(odd) {
+.finalizar{
 	background-color: #ffff38;
 	justify-content: center;
 }
 
-.cell {
-	padding: 1rem;
-	justify-content: center;
 
-}
 

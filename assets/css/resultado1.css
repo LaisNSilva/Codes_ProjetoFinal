@@ -1,0 +1,23 @@
+.resutado1-main{
+	display: flex;
+	background-color: #f2d7d7;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.table {
+	max-width: 50rem;
+	margin-top: 1rem;
+}
+
+.row {
+}
+
+.row:nth-child(odd) {
+	background-color: #fcfcfc;
+}
+
+.cell {
+	padding: 1rem;
+}
