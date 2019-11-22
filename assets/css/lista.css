@@ -1,8 +1,28 @@
 
+.projeto-main{
+	display: flex;
+	background-color: #f2d7d7;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.lista{
+	font-weight: bold;
+	font-family: "lato", serif;
+	font-size:2.5rem;
+	color: #f26378;
+	margin-top: 1.4rem;
+	justify-content: center;
+
+
+}
+
+
 .itens{
 	font-family: "literata", sans-serif;
 	font-size:1.1rem;
-	color: #353333;
+	color: #0d0d0d;
 	margin-left: 2rem;
 	max-width: 50rem;
 	display: grid;
@@ -12,16 +32,14 @@
 
 }
 
+.row:nth-child(odd) {
+	background-color: #ffff38;
+	justify-content: center;
+}
 
-.lista{
-	font-family: "lato", sans-serif;
-	font-size:1.1rem;
-	color: #353333;
-	margin-left: 2rem;
-	max-width: 50rem;
-	display: grid;
-	grid-gap: 1rem;
-	grid-template-columns: 1fr;
-	margin: 1rem;
+.cell {
+	padding: 1rem;
+	justify-content: center;
 
 }
+

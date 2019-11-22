@@ -1,0 +1,21 @@
+/*base.css*/
+body{
+  font-family:"quicksand", sans-serif;
+  background-color: #f6f6f6;
+}
+
+.header {
+  padding: 1rem;
+  color: #314366;
+  background-color: #314366;
+  box-shadow: 0 0 5px;
+  display: flex;
+}
+
+.logo {
+}
+
+.logo-img {
+  height: 2rem;
+  margin-left: 1rem;
+}
