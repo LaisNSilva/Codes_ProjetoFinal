@@ -1,0 +1,44 @@
+.body{
+	max-width: 80rem;
+	margin: 0 auto;
+	width: 100%;
+	flex-direction: column;
+}
+
+.title{
+	font-weight: bold;
+	font-family: "lato", serif;
+	font-size:2.5rem;
+	color: #f26378;
+	margin-top: 1.4rem;
+	text-align: center;
+	padding-top: 2rem;
+
+}
+
+.list{
+	font-family: "literata", sans-serif;
+	font-size:1.1rem;
+	color: #0d0d0d;
+	margin-left: 2rem;
+	max-width: 50rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr;
+	margin: 1rem;
+	align-items: center;
+}
+
+.editar{
+	background-color: #ffff38;
+	text-align: end;
+	padding-top: 2rem;
+	padding-right: 1rem;
+}
+
+.finalizar{
+	background-color: #ffff38;
+	text-align: end;
+	padding-top: 2rem;
+	padding-right: 1rem;
+}
