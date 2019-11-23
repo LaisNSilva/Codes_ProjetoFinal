@@ -12,48 +12,105 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
-<body class="body">>
+<body class="body">
 	<header class="header">
 		<figure class = "logo">
       		<a href="index.html"><img class="logo-img" src="assets/img/logo.png" alt="logo"></a>
     	</figure>
 
-    	<figure class="menu-figure">
-        	<a href="#"><img class="menu-img" src="assets/img/menu.png" alt="Abrir menu"></a>
-     	</figure>
+    	<div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="#">Perfil</a>
+	        <a href="#">Histórico de Listas</a>
+	        <a href="#">Listas Favoritas</a>
+	        <a href="#">Configurações</a>
+    	</div>
+    	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 
 		
 
 	</header>	
 
-<main class="resultado1-main">>
-		<table class="table">
-			<div class="projeto-texto">
+<main class="resultado1-main">
+		
+			<div class="resultado1-texto">
+				<table class="table1">
+
+					<h1 class="mercado">
+						Pão de Acuçar:
+					</h1>
+				
 	                <tr class="row">
-	                    <td class="cell">Pão de Açucar:</td>
+	                    <td class="cell"><img class="resultado1-img" src="assets/img/loc.png" alt="Localização"></td>
 	                    <td class="cell">
-	                    	<a href="#"><img class="loc-img" src="assets/img/loc.png" alt="Localização"></a>
 	                    	<p>
 								0,6 km de você
 							</p>
 
+
+	                    </td>
+	                 <tr class="row">
+
+	                    <td class="cell"><img class="resultado1-img" src="assets/img/tem.png" alt="Disponivel"></td>
+	                    <td class="cell">
+	                    	<p>
+								Todos os produtos estão disponiveis!
+							</p>
 	                    </td>
 	                </tr>
-	                <tr class="row">
-	                    <td class="cell">Dia:</td>
+
+
+	                 <tr class="row">
+	                    <td class="cell"><img class="resultado1-img" src="assets/img/preço.png" alt="Preço"></td>
 	                    <td class="cell">
-	                    	<a href="#"><img class="loc-img" src="assets/img/loc.png" alt="Localização"></a>
+	                    	<p>
+								Valor da Compra: 22,70.
+							</p>
+
+	                    </td>
+	                </tr>
+	            </table>
+
+
+	 			<table class="table1">
+	 				<h1 class="mercado">
+	 					Dia:
+	 				</h1>
+
+	                <tr class="row">
+	                    <td class="cell"><img class="resultado1-img" src="assets/img/loc.png" alt="Localização"></a></td>
+	                    <td class="cell">
 	                    	 <p>
 								1 km de você
-							</p>
-	
-	                    	
+							</p>	                    	
 	                    </td>
 	                </tr>
-	                
+
+	                 <tr class="row">
+	                    <td class="cell"><img class="resultado1-img" src="assets/img/nao_tem.png" alt="Indisponivel"></td>
+	                    <td class="cell">
+	                    	<p>
+								Falta: Castanha de caju.
+							</p>
+	                    </td>
+	                </tr>
+
+	                 <tr class="row">
+
+	                    <td class="cell"><img class="resultado1-img" src="assets/img/preço.png" alt="preço"></td>
+	                    <td class="cell">
+	                    	<p>
+								Valor da compra: 16,50.
+							</p>
+
+	                    </td>
+
+
+	                </tr>
+	             </table>
+		   
 				
 			</div>
-		</table>
 		
 		
 

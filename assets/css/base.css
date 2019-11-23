@@ -40,3 +40,19 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.header {
+  padding: 1rem;
+  color: #ffff77;
+  background-color: #ffff77;
+  box-shadow: 0 0 5px;
+  display: flex;
+}
+
+.logo {
+}
+
+.logo-img {
+  height: 2rem;
+  margin-left: 1rem;
+}

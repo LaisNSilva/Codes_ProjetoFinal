@@ -1,4 +1,17 @@
-.resutado1-main{
+.resultado1-texto {
+	font-family: "lato", sans-serif;
+	font-size:1.1rem;
+	color: #0d0d0d;
+	margin-left: 2rem;
+	max-width: 50rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr;
+	margin: 1rem;
+
+}
+
+.resutado1-main {
 	display: flex;
 	background-color: #f2d7d7;
 	flex-wrap: wrap;
@@ -6,18 +19,30 @@
 
 }
 
-.table {
+.table1 {
 	max-width: 50rem;
 	margin-top: 1rem;
+	background-color: #f2d7d7;
+}
+
+.mercado{
+	font-family: "literata", serif;
+	font-size:2rem;
+	color: #f26387;
+	justify-content: center;
+
 }
 
 .row {
 }
 
-.row:nth-child(odd) {
-	background-color: #fcfcfc;
-}
+
 
 .cell {
 	padding: 1rem;
+}
+
+.resultado1-img {
+	height: 2rem;
+	margin-left: 1rem;
 }
