@@ -1,0 +1,40 @@
+.mobile {
+    font-family: "lato", sans-serif;
+    max-width: 480px;
+    font-size:1.1rem;
+    margin: auto;
+    background-color: fcfcfc;
+    height: 500px;
+    color: black;
+  }
+
+.corpo-mobile{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 40px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #0d0d0d;
+    background-color: #ffff77;
+    border: none;
+    border-radius:50%;
+    box-shadow: 0 5px #f26387;
+    font-weight: bold;
+  }
+  
+  .button:hover {background-color:#ffff77}
+  
+  .button:active {
+    background-color: #ffff77;
+    box-shadow: 0 5px #f26387;
+    transform: translateY(4px);
+  }

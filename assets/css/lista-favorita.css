@@ -1,0 +1,15 @@
+.corpo-lista-favorita{
+    margin: 30px;
+    font-family: "lato", sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "literata", "serif";
+    font-weight: bold;
+}

@@ -34,12 +34,12 @@ body {
   background: #f26387;
   display: block;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: 7px;
 }
 
 .topnav a:hover {
-  background-color: #f2d7d7;
+  background-color: #f26387;
   color: black;
 }
 
