@@ -8,30 +8,32 @@
 	<link href="assets/css/reset.css" rel="stylesheet">
 	<link href="assets/css/resultado1.css" rel="stylesheet">
 	<link href="assets/css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="assets/js/base.js"></script>
 </head>
 
+<!-- Aqui começa a base -->
 <body class="body">
-	<header class="header">
-		<figure class = "logo">
-      		<a href="index.html"><img class="logo-img" src="assets/img/logo.png" alt="logo"></a>
-    	</figure>
+	<div class="mobile-container">
+		<div class="topnav">
+				<div class = "active">
+					<a href="index.html"><img class="logo-img" src="assets/img/logo.jpg" alt="logo"></a>
+				</div>
+		  <div id="myLinks">
+			<a href="#news">Perfil</a>
+			<a href="#contact">Histórico de Listas</a>
+			<a href="#about">Listas Favoritas</a>
+			<a href="#about">Configurações</a>
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+<!-- Aqui termina a base -->
 
-    	<div id="mySidenav" class="sidenav">
-	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	        <a href="#">Perfil</a>
-	        <a href="#">Histórico de Listas</a>
-	        <a href="#">Listas Favoritas</a>
-	        <a href="#">Configurações</a>
-    	</div>
-    	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-		
-
-	</header>	
-
-<main class="resultado1-main">
+		<main class="resultado1-main">
 		
 			<div class="resultado1-texto">
 				<table class="table1">
@@ -46,11 +48,9 @@
 	                    	<p>
 								0,6 km de você
 							</p>
-
-
 	                    </td>
-	                 <tr class="row">
-
+					  
+						<tr class="row">
 	                    <td class="cell"><img class="resultado1-img" src="assets/img/tem.png" alt="Disponivel"></td>
 	                    <td class="cell">
 	                    	<p>
@@ -59,18 +59,15 @@
 	                    </td>
 	                </tr>
 
-
-	                 <tr class="row">
-	                    <td class="cell"><img class="resultado1-img" src="assets/img/preço.png" alt="Preço"></td>
+	                <tr class="row">
+	            	    <td class="cell"><img class="resultado1-img" src="assets/img/preço.png" alt="Preço"></td>
 	                    <td class="cell">
 	                    	<p>
 								Valor da Compra: 22,70.
 							</p>
-
 	                    </td>
 	                </tr>
 	            </table>
-
 
 	 			<table class="table1">
 	 				<h1 class="mercado">
@@ -95,25 +92,16 @@
 	                    </td>
 	                </tr>
 
-	                 <tr class="row">
-
+	                <tr class="row">
 	                    <td class="cell"><img class="resultado1-img" src="assets/img/preço.png" alt="preço"></td>
 	                    <td class="cell">
 	                    	<p>
 								Valor da compra: 16,50.
 							</p>
-
 	                    </td>
-
-
 	                </tr>
-	             </table>
-		   
-				
+	            </table>	
 			</div>
-		
-		
-
-
-	</main>	
+		</main>	
+	</div>
 </body>

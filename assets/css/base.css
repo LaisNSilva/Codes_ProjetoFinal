@@ -1,58 +1,58 @@
 body {
-  font-family: "Lato", sans-serif;
+  margin: 0px;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+.mobile-container {
+  font-family: "lato", sans-serif;
+  max-width: 480px;
+  font-size:1.1rem;
+  margin: auto;
+  background-color: fcfcfc;
+  height: 500px;
+  color: black;
+}
+
+.topnav {
+  overflow: hidden;
   background-color: #f2d7d7;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  position: relative;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 17px;
   display: block;
-  transition: 0.3s;
 }
 
-.sidenav a:hover {
-  color: #0d0d0d;
-}
-
-.sidenav .closebtn {
+.topnav a.icon {
+  background: #f26387;
+  display: block;
   position: absolute;
+  right: 0;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.topnav a:hover {
+  background-color: #f2d7d7;
+  color: black;
 }
 
-.header {
-  padding: 1rem;
-  color: #ffff77;
-  background-color: #ffff77;
-  box-shadow: 0 0 5px;
-  display: flex;
+.active {
+  background-color: #f26387;
+  color: white;
 }
 
-.logo {
+.logo{
 }
 
 .logo-img {
   height: 2rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  border-radius: 20px;
 }
