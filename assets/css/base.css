@@ -7,9 +7,10 @@ body {
   max-width: 480px;
   font-size:1.1rem;
   margin: auto;
-  background-color: fcfcfc;
+  background-color: #fcfcfc;;
   height: 500px;
   color: black;
+
 }
 
 .topnav {
