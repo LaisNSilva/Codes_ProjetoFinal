@@ -40,7 +40,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #f26387;
+  background-color: #fcfcfc;
   color: black;
 }
 
@@ -56,4 +56,11 @@ body {
   height: 2rem;
   margin-left: 0.5rem;
   border-radius: 20px;
+}
+
+hr{
+  margin: 0em;
+  background-color: white;
+  margin-bottom: 0.5em;
+  border-width: 1px;
 }
