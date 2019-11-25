@@ -1,75 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<script src="assets/js/avaliacao.js"></script>
-	<link href="assets/css/reset.css" rel="stylesheet">
-    <link href="assets/css/avaliacao.css" rel="stylesheet">
-    <link href="assets/css/base.css" rel="stylesheet">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Avalie esta página</title>
-</head>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+    	<script src="assets/js/avaliacao.js"></script>
+    	<link href="assets/css/reset.css" rel="stylesheet">
+        <link href="assets/css/avaliacao.css" rel="stylesheet">
+        <link href="assets/css/base.css" rel="stylesheet">
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Avalie esta página</title>
+    </head>
 
-<body class="body">
-	 <div class="mobile-container">
-        <div class="topnav">
-            <div class = "active">
-                <a href="index.html"><img class="logo-img" src="assets/img/logo.jpg" alt="logo"></a>
+    <body class="body">
+    	 <div class="mobile-container">
+            <div class="topnav">
+                <div class = "active">
+                    <a href="index.html"><img class="logo-img" src="assets/img/logo.jpg" alt="logo"></a>
+                </div>
+                <div id="myLinks">
+                    <a href="#perfil">Perfil 
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#historico">Histórico de Listas
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="listas-favoritas.html">Listas Favoritas
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="#configuraçoes">Configurações
+                        <i class="fas fa-cogs"></i>
+                    </a>
+                </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
             </div>
-            <div id="myLinks">
-                <a href="#perfil">Perfil 
-                    <i class="fas fa-user"></i>
-                </a>
-                <a href="#historico">Histórico de Listas
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <a href="listas-favoritas.html">Listas Favoritas
-                    <i class="fas fa-heart"></i>
-                </a>
-                <a href="#configuraçoes">Configurações
-                    <i class="fas fa-cogs"></i>
-                </a>
-            </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+    	<ul class="star">
+    	<li><a href="javascript:void(0)" onclick="Avaliar(1)">
+    	<img src="assets/img/star0.png" id="s1"></a></li>
+
+    	<li><a href="javascript:void(0)" onclick="Avaliar(2)">
+    	<img src="assets/img/star0.png" id="s2"></a></li>
+
+    	<li><a href="javascript:void(0)" onclick="Avaliar(3)">
+    	<img src="assets/img/star0.png" id="s3"></a></li>
+
+    	<li><a href="javascript:void(0)" onclick="Avaliar(4)">
+    	<img src="assets/img/star0.png" id="s4"></a></li>
+
+    	<li><a href="javascript:void(0)" onclick="Avaliar(5)">
+    	<img src="assets/img/star0.png" id="s5"></a></li>
+    	
+    	</ul>
+
+    	<div class="ava">
+    	<h1 class="cometarios">
+    		Comentários:
+    	</h1>
+
+    	<form action="/pagina-processa-dados-do-form" method="post">
+        <div class="caixa_texto">
+            <label for="msg"></label>
+            <textarea id="msg"></textarea>
         </div>
-	<ul class="star">
-	<li><a href="javascript:void(0)" onclick="Avaliar(1)">
-	<img src="assets/img/star0.png" id="s1"></a></li>
-
-	<li><a href="javascript:void(0)" onclick="Avaliar(2)">
-	<img src="assets/img/star0.png" id="s2"></a></li>
-
-	<li><a href="javascript:void(0)" onclick="Avaliar(3)">
-	<img src="assets/img/star0.png" id="s3"></a></li>
-
-	<li><a href="javascript:void(0)" onclick="Avaliar(4)">
-	<img src="assets/img/star0.png" id="s4"></a></li>
-
-	<li><a href="javascript:void(0)" onclick="Avaliar(5)">
-	<img src="assets/img/star0.png" id="s5"></a></li>
-	
-	</ul>
-
-	<div class="ava">
-	<h1 class="cometarios">
-		Comentários:
-	</h1>
-
-	<form action="/pagina-processa-dados-do-form" method="post">
-    <div class="caixa_texto">
-        <label for="msg"></label>
-        <textarea id="msg"></textarea>
+        <div class="enviar">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
     </div>
-    <div class="enviar">
-        <button type="submit">Enviar</button>
-    </div>
-</form>
+
+
+    </body>
+    </html>
 </div>
 
-
-</body>
-</html>
-
-<!-- ´código base retirado de https://www.blogson.com.br/sistema-de-rating-avaliacao-em-html-e-javascript-parte-1/  -->
+    <!-- ´código base retirado de https://www.blogson.com.br/sistema-de-rating-avaliacao-em-html-e-javascript-parte-1/  -->
