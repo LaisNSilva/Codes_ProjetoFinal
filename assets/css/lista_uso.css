@@ -60,3 +60,75 @@
 	color: gray;
 
 }
+
+.mensagem{
+	display: inline-block;
+	width: 90%;
+	height: 300px;
+	max-width: 480px;
+	position: absolute;
+	top: 150px;
+	left: 4%;
+	border-style: solid;
+	border-width: 2px; 
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: "lato", sans-serif;
+	font-size: 2rem;
+}
+
+.desisti{
+	display: inline-block;
+	width: 45%;
+	height: 85px;
+	max-width: 480px;
+	position: absolute;
+	top: 386px;
+	left: 4%;
+	border-style: solid;
+	border-width: 2px; 
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: "lato", sans-serif;
+	font-size: 1.6rem;
+}
+.nachei{
+	display: inline-block;
+	width: 45%;
+	max-width: 480px;
+	height: 85px;
+	position: absolute;
+	top: 386px;
+	left: 49%;
+	border-style: solid;
+	border-width: 2px; 
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: "lato", sans-serif;
+	font-size: 1.6rem;
+}
+.cancel{
+	width: 20px;
+	height: 10px;
+	border: 1px;
+	padding: 1px;
+	border-style: solid;
+	position: absolute;
+	top: 150px;
+	left: 88%;
+}	
+.ok{
+	width: 25px;
+	height: 15px;
+	border: 2px;
+	padding: 1px;
+	border-style: solid;
+	position: absolute;
+	top: 433px;
+	left: 85.5%;	
+	background-color: #FFFFFF;
+	font-family: "lato", sans-serif;
+	font-size: 1rem;
+	text-align: center;
+
+}
