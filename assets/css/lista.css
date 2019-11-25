@@ -13,7 +13,7 @@
 	color: #f26378;
 	justify-content: center;
 	margin-left: 2rem;
-	max-width: 50rem;
+	
 
 
 
@@ -26,18 +26,19 @@
 	font-size:1.1rem;
 	color: #0d0d0d;
 	margin-left: 0rem;
-	max-width: 50rem;
+	
 	display: grid;
 	grid-gap: 1rem;
-	grid-template-columns: 1fr;
+	grid-template-columns: 20rem;
 	margin: 2rem;
 
 }
 
 .finalizar{
 	background-color: #ffff38;
+	flex-wrap: wrap;
 	justify-content: center;
+	font-family: "literata", serif;
 }
-
 
 

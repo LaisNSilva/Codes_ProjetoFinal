@@ -7,30 +7,40 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link href="assets/css/reset.css" rel="stylesheet">
 	<link href="assets/css/lista.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">    <link href="assets/css/base.css" rel="stylesheet">
+	<link href="assets/css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
 	<script src="assets/js/base.js"></script>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
+<!-- Aqui começa a base -->
 <body class="body">
-	<header class="header">
-		<figure class = "logo">
-      		<a href="index.html"><img class="logo-img" src="assets/img/logo.png" alt="logo"></a>
-    	</figure>
-
-     	<div id="mySidenav" class="sidenav">
-	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	        <a href="#">Perfil</a>
-	        <a href="#">Histórico de Listas</a>
-	        <a href="#">Listas Favoritas</a>
-	        <a href="#">Configurações</a>
-    	</div>
-    	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-		
-
-	</header>	
+	<div class="mobile-container">
+		<div class="topnav">
+			<div class = "active">
+				<a href="index.html"><img class="logo-img" src="assets/img/logo.jpg" alt="logo"></a>
+			</div>
+			<div id="myLinks">
+				<a href="#perfil">Perfil 
+					<i class="fas fa-user"></i>
+				</a>
+				<a href="#historico">Histórico de Listas
+					<i class="fas fa-shopping-cart"></i>
+				</a>
+				<a href="listas-favoritas.html">Listas Favoritas
+					<i class="fas fa-heart"></i>
+				</a>
+				<a href="#configuraçoes">Configurações
+					<i class="fas fa-cogs"></i>
+				</a>
+			</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+		</div>
 
 
 	<main class="lista-main">
@@ -51,17 +61,18 @@
 			<p>
 				1x Castanha de Caju
 			</p>
-	<form action="/pagina-processa-dados-do-form" method="post">
-    	<div>
-        	<label for="item"></label>
-        	<input type="text" id="item" />
+			<form action="/pagina-processa-dados-do-form" method="post">
+    			<div>
+	        	<label for="item"></label>
+	        	<input type="text" id="item" />
+    			</div>
+    		</form>
     	</div>
-    </form>
 
 		<div class="finalizar">
-		<p>
-            <a href="resultado1.html">FINALIZAR LISTA</a>
-          </p>
+			
+            <a href="resultado1.html">Finalizar Lista</a>
+          
         </div>
 	</main>	
 </body>
