@@ -1,4 +1,3 @@
-
 .lista-main{
 	background-color: #f2d7d7;
 	flex-wrap: wrap;
@@ -43,22 +42,9 @@
   	background-color: #fcfcfc;
   	position: relative;
   	margin-top: 2rem;
-
 }
 
-.busca #LinkOK {
-  display: none;
-}
-
-.busca a {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.busca a.bot {
+.ok{
 	display: inline-block;
 	width: 25px;
 	height:15px;
@@ -70,7 +56,6 @@
 	color: #f26378;
 	text-align: center;
 	background-color: white;
-  
 }
 
 .finalizar{
@@ -84,9 +69,4 @@
 
 	
 }
-
-
-
-
-
 
