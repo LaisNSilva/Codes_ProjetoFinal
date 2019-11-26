@@ -19,6 +19,12 @@
 
 }
 
+.table {
+	max-width: 50rem;
+	margin-top: 1rem;
+	background-color: #f2d7d7;
+}
+
 .table1 {
 	max-width: 50rem;
 	margin-top: 1rem;
