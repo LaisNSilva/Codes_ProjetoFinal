@@ -1,0 +1,47 @@
+.perfil-main{
+	background-color: #f2d7d7;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 20rem;
+}
+
+.perfil-texto {
+	font-family: "lato", sans-serif;
+	font-size:1.1rem;
+	color: #0d0d0d;
+	margin-left: 2rem;
+	max-width: 50rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 1fr;
+	margin: 1rem;
+
+}
+
+.cover {
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+	width: 100%;
+}
+
+.cover-image {
+}
+
+.table {
+	max-width: 50rem;
+	margin-top: 1rem;
+	background-color: #f2d7d7;
+}
+
+
+
+.row {
+	padding: 10rem;
+}
+
+
+
+.cell {
+	padding: 1rem;
+}
