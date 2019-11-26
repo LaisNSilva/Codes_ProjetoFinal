@@ -3,39 +3,38 @@
 	background-color: #f2d7d7;
 	flex-wrap: wrap;
 	justify-content: center;
-	height: 50rem;
+	height: 20rem;
 
 }
 
 .lista{
 	font-weight: bold;
 	font-family: "literata", serif;
-	font-size:3rem;
+	font-size:1.3rem;
+	margin-top: 30px;
 	color: #f26378;
-	justify-content: center;
-	margin-left: 2rem;
-	
-
+	text-align: center;
 }
 
+.itens1 p{
+	margin: 13px;
+	margin-top: 20px;
+	padding-left: 30px;
+
+}
 
 .itens{
 	font-family: "lato", sans-serif;
 	font-size:1.1rem;
+	padding: 20px;
 	color: #0d0d0d;
-	margin-left: 0rem;
 	display: grid;
-	grid-gap: 1rem;
-	grid-template-columns: 20rem;
-	margin-left: 2rem;
 	margin-top: 2rem;
 	background-color: #f2d7d7;
 	height: 500px;
 	color: black;
-
-
+	max-width: 50rem;
 }
-
 
 .busca{
 	display: inline-block;
@@ -43,7 +42,6 @@
   	background-color: #fcfcfc;
   	position: relative;
   	margin-top: 2rem;
-
 }
 
 .busca #LinkOK {
@@ -70,7 +68,6 @@
 	color: #f26378;
 	text-align: center;
 	background-color: white;
-  
 }
 
 .finalizar{

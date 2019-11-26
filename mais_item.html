@@ -3,38 +3,57 @@
 
 <head>
 	<title>O que vamos comprar hoje?</title>
+	<link href="assets/css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link href="assets/css/reset.css" rel="stylesheet">
 	<link href="assets/css/lista.css" rel="stylesheet">
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="assets/js/base.js"></script>
 </head>
 
 <body>
-	<header class="header">
-		<img class="logo" src="assets/img/logo.jpg" alt="logo">
-	</header>	
+	<div class="mobile-container">
+        <div class="topnav">
+            <div class = "active">
+                <a href="index.html"><img class="logo-img" src="assets/img/logo.jpg" alt="logo"></a>
+            </div>
 
-
-	<main>
+            <div id="myLinks">
+                <a style="color:#f26387" href="#perfil">Perfil 
+                    <i class="fas fa-user"></i>
+                </a>
+                <hr>                
+                <a style="color:#f26387" href="#historico">Histórico de Listas
+                    <i class="fas fa-shopping-cart"></i>
+                </a> 
+                <hr>
+                <a style="color:#f26387" href="listas-favoritas.html">Listas Favoritas
+                    <i class="fas fa-heart"></i>
+                </a>
+                <hr> 
+                <a style="color:#f26387" href="#configuraçoes">Configurações
+                    <i class="fas fa-cogs"></i>
+                </a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>	
 		<h1 class="lista">O que vamos comprar hoje?</h1>
-
-		
-		<div class="itens">
-			
-			<p>
-				1x Leite Desnatado Ninho
-			</p>
-
-			<p>
-				1x Farinha de Trigo D. Benta
-			</p>
-				2x Arroz Saboroso
-			   
-			<p>
-				1x Castanha de Caju
-			</p>
+		<div class="itens1">
+			<br>
+			<p>1x Leite Desnatado Ninho</p>
+			<br>
+			<p>1x Farinha de Trigo D. Benta</p>
+			<br>
+			<p>2x Arroz Saboroso</p>
+			<br>
+			<p>1x Castanha de Caju</p>
 		</div>
-	</main>	
+	</div>
 </body>
+</html>
