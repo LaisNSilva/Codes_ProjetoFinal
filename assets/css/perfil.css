@@ -3,6 +3,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	height: 20rem;
+	display: flex;
 }
 
 .perfil-texto {
