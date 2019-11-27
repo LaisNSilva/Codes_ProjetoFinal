@@ -6,12 +6,24 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	let li = document.querySelector('li')
 
+	let certo_novo =document.createElement('img')
+	let errado_novo =document.createElement('div')
+
 	certo.addEventListener('click', function(){
 		li.classList.add('afterClick')
-		certo.src = "assets/img/tem_pos.png"
-		certo.classList.add('tem_pos')
-		errado.remove()
+		certo_novo.src = "assets/img/tem_pos.png"
+		certo_novo.classList.add('tem_pos')
+		certo_novo.classList.add('errado_novo')
+		errado.parentNode.replaceChild(errado_novo, errado)
+		certo.parentNode.replaceChild(certo_novo, certo)
 	})
+
+	certo_novo.addEventListener('click', function(){
+		li.classList.remove('afterClick')
+		certo_novo.parentNode.replaceChild(certo, certo_novo)
+		errado_novo.parentNode.replaceChild( errado, errado_novo)
+	})	
+
 	let mensagem =document.createElement('div')
 	let desisti = document.createElement('div')
 	let nachei = document.createElement('div')
@@ -80,6 +92,8 @@ document.addEventListener('DOMContentLoaded', function(){
 	let certo2 = document.getElementById('certo2')
 	let errado2 = document.getElementById('errado2')
 	let li2 = document.getElementById('li2')
+	let certo_novo2 =document.createElement('img')
+	let errado_novo2 =document.createElement('div')
 
 	let mensagem2 =document.createElement('div')
 	let desisti2 = document.createElement('div')
@@ -90,10 +104,18 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	certo2.addEventListener('click', function(){
 		li2.classList.add('afterClick')
-		certo2.src = "assets/img/tem_pos.png"
-		certo2.classList.add('tem_pos')
-		errado2.remove()
+		certo_novo2.src = "assets/img/tem_pos.png"
+		certo_novo2.classList.add('tem_pos')
+		certo_novo2.classList.add('errado_novo')
+		errado2.parentNode.replaceChild(errado_novo2, errado2)
+		certo2.parentNode.replaceChild(certo_novo2, certo2)
 	})
+
+	certo_novo2.addEventListener('click', function(){
+		li2.classList.remove('afterClick')
+		certo_novo2.parentNode.replaceChild(certo2, certo_novo2)
+		errado_novo2.parentNode.replaceChild( errado2, errado_novo2)
+	})	
 
 	errado2.addEventListener('click', function(){
 		mensagem2.innerHTML = 'Por que deseja remover esse item da lista?'
@@ -156,20 +178,31 @@ document.addEventListener('DOMContentLoaded', function(){
 	let certo3 = document.getElementById('certo3')
 	let errado3 = document.getElementById('errado3')
 	let li3 = document.getElementById('li3')
+	let certo_novo3 =document.createElement('img')
 
 	let mensagem3 =document.createElement('div')
 	let desisti3 = document.createElement('div')
 	let nachei3 = document.createElement('div')
 	let cancel3 = document.createElement('img')
 	let ok3 = document.createElement('div')
+	let errado_novo3 =document.createElement('div')
 
 
 	certo3.addEventListener('click', function(){
 		li3.classList.add('afterClick')
-		certo3.src = "assets/img/tem_pos.png"
-		certo3.classList.add('tem_pos')
-		errado3.remove()
+		certo_novo3.src = "assets/img/tem_pos.png"
+		certo_novo3.classList.add('tem_pos')
+		certo_novo3.classList.add('errado_novo')
+		errado.parentNode.replaceChild(errado_novo3, errado3)
+		certo.parentNode.replaceChild(certo_novo3, certo3)
 	})
+
+	certo_novo3.addEventListener('click', function(){
+		li3.classList.remove('afterClick')
+		certo_novo3.parentNode.replaceChild(certo3, certo_novo3)
+		errado_novo3.parentNode.replaceChild( errado3, errado_novo3)
+	})	
+
 
 	errado3.addEventListener('click', function(){
 		mensagem3.innerHTML = 'Por que deseja remover esse item da lista?'

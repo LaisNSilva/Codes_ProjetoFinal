@@ -39,6 +39,14 @@
 
 }
 
+.errado_novo{
+	width: 20px;
+	height: 10px;
+	border: 0px;
+	padding: 1px;
+	border-style: solid;
+}
+
 .ul{
 	margin-top: 40px; 
 	max-width: 480px;
