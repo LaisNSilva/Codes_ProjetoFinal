@@ -4,10 +4,10 @@ body {
 
 .mobile-container {
   font-family: "lato", sans-serif;
-  max-width: 480px;
+  max-width: 360px;
   font-size:1.1rem;
   margin: auto;
-  background-color: #fcfcfc;;
+  background-color: #fafafa;
   height: 500px;
   color: black;
 

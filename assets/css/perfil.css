@@ -1,4 +1,12 @@
-.resultado1-texto {
+.perfil-main{
+	background-color: #f2d7d7;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 20rem;
+	display: flex;
+}
+
+.perfil-texto {
 	font-family: "lato", sans-serif;
 	font-size:1.1rem;
 	color: #0d0d0d;
@@ -11,12 +19,14 @@
 
 }
 
-.resutado1-main {
+.cover {
 	display: flex;
-	background-color: #f2d7d7;
-	flex-wrap: wrap;
 	justify-content: center;
+	margin-top: 4rem;
+	width: 100%;
+}
 
+.cover-image {
 }
 
 .table {
@@ -25,19 +35,7 @@
 	background-color: #f2d7d7;
 }
 
-.table1 {
-	max-width: 50rem;
-	margin-top: 1rem;
-	background-color: #f2d7d7;
-}
 
-.mercado{
-	font-family: "literata", serif;
-	font-size:2rem;
-	color: #f26387;
-	justify-content: center;
-
-}
 
 .row {
 	padding: 10rem;
@@ -47,9 +45,4 @@
 
 .cell {
 	padding: 1rem;
-}
-
-.resultado1-img {
-	height: 2rem;
-	margin-left: 1rem;
 }

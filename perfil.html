@@ -6,19 +6,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link href="assets/css/reset.css" rel="stylesheet">
-	<link href="assets/css/lista.css" rel="stylesheet">
+	<link href="assets/css/perfil.css" rel="stylesheet">
 	<link href="assets/css/base.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">    
-	<script src="assets/js/base.js"></script>
-	<script src="assets/js/adicionarlista.js"></script>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>f
+	<script src="assets/js/base.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <!-- Aqui começa a base -->
-<body>
+<body class="body">
 	<div class="mobile-container">
 		<div class="topnav">
 			<div class = "active">
@@ -42,51 +40,36 @@
 					<i class="fa fa-bars"></i>
 				</a>
 		</div>
+		<!-- Aqui termina a base -->
 
-
-	<main class="lista-main">
-		<h1 class="lista">O que vamos comprar hoje?</h1>
-
+		<main class="perfil-main">
 		
-		<div class="itens">
-			
-			
-			<form class="form" action="/pagina-processa-dados-do-form" method="post"> 
-    			<div class='busca'>
-		        	<label for="item"></label>
-		        	<input type="text" id="item" />
-		        	
-	    				<div id="LinkOK">
-							<a href="lista_castanha.html">Castanha de Caju
-								
-							</a>
-							<a href="#castanhadopara">Castanha do Pará
-								
-							</a>
-							<a href="#castanhadepequi">Castanha de Pequi
-								
-							</a>
-						</div>
-							<a href="javascript:void(0);" class="bot" onclick="OKFunction()">
-								<i>
-									OK
-								</i>
-							</a>
-
-					<div class="finalizar">
-			
-            		<a href="resultado1.html" class="fim">Finalizar Lista</a>
-				</div>   	
-    			
-    		</form>
-    		
-    	</div>
-
-
-		<div class="finalizar">
-			
-            <a href="resultado1.html" class="fim">Finalizar Lista</a>
-          
-        </div>
+		<figure class="cover">
+			<img class="cover-image" src="assets/img/lucia.png" width="320" height="205" alt="Foto Lucia">
+		</figure>
+		<table class="table">
+			<div class="perfil-texto">
+	                <tr class="row">
+	                    <td class="cell">Nome:</td>
+	                    <td class="cell">Lucia Figueiredo</td>
+	                </tr>
+	                <tr class="row">
+	                    <td class="cell">E-mail:</td>
+	                    <td class="cell">luciaf@hotmail.com</td>
+	                </tr>
+	                <tr class="row">
+	                    <td class="cell">Profissão:</td>
+	                    <td class="cell">Professora</td>
+	                </tr>
+	                <tr class="row">
+	                    <td class="cell">Localização:</td>
+	                    <td class="cell">São Paulo</td>
+	                </tr>
+	             
+				
+			</div>
+		</table>
 	</main>	
+
 </body>
+</html>
