@@ -3,17 +3,18 @@
 	background-color: #f2d7d7;
 	flex-wrap: wrap;
 	justify-content: center;
-	height: 20rem;
+	height: 100%;
+
 
 }
 
 .lista{
 	font-weight: bold;
 	font-family: "literata", serif;
-	font-size:1.3rem;
-	margin-top: 30px;
+	font-size:2rem;
 	color: #f26378;
 	text-align: center;
+
 }
 
 .itens1 p{
@@ -82,10 +83,8 @@
 	left: 15%;
 }
 
-.bot{
-	display: inline-block;
-	
-}
+
+
 
 
 

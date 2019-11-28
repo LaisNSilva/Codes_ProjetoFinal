@@ -9,23 +9,21 @@
 .lista{
 	font-weight: bold;
 	font-family: "literata", serif;
-	font-size:3rem;
+	font-size:2rem;
 	color: #f26378;
-	justify-content: center;
-	margin-left: 2rem;
-	
+	text-align: center;
 
 }
 
+.form{
+
+}
 
 .itens{
 	font-family: "lato", sans-serif;
 	font-size:1.1rem;
 	color: #0d0d0d;
 	margin-left: 0rem;
-	display: grid;
-	grid-gap: 1rem;
-	grid-template-columns: 20rem;
 	margin-left: 2rem;
 	margin-top: 2rem;
 	background-color: #f2d7d7;
@@ -60,13 +58,15 @@
 
 .finalizar{
 	background-color: #ffff38;
-	flex-wrap: wrap;
-	font-size:2.7rem;
-	justify-content: center;
+	font-size:2rem;
 	font-family: "literata", serif;
-	height: 50px;
-	margin-top: 167px;
-
-	
+	height: 3rem;
+	width: 70%;
+	margin-bottom: 5%;
+	text-align: center;
+	position: relative;
+	top: 75%;
+	left: 15%;
 }
+
 
