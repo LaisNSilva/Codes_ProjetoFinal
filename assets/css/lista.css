@@ -28,7 +28,6 @@
 	font-size:1.1rem;
 	padding: 20px;
 	color: #0d0d0d;
-	display: grid;
 	margin-top: 2rem;
 	background-color: #f2d7d7;
 	height: 500px;
@@ -72,16 +71,21 @@
 
 .finalizar{
 	background-color: #ffff38;
-	flex-wrap: wrap;
-	font-size:2.7rem;
-	justify-content: center;
+	font-size:2rem;
 	font-family: "literata", serif;
-	bottom: 2rem;
-
-	
+	height: 3rem;
+	width: 70%;
+	margin-bottom: 5%;
+	text-align: center;
+	position: relative;
+	top: 75%;
+	left: 15%;
 }
 
-
+.bot{
+	display: inline-block;
+	
+}
 
 
 
