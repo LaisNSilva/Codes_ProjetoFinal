@@ -81,6 +81,24 @@
 	position: relative;
 	top: 75%;
 	left: 15%;
+
+}
+
+.ok{
+	position: absolute;
+	top:210px;
+	left: 51%;
+	display: inline-block;
+	width: 25px;
+	height:15px;
+	border: 2px;
+	padding: 1px;
+	border-style: solid;
+	font-family: "lato", sans-serif;
+	font-size: 1rem;
+	color: #f26378;
+	text-align: center;
+	background-color: white;
 }
 
 
