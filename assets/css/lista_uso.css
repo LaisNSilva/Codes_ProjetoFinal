@@ -7,19 +7,20 @@
 .title{
 	margin-top: 10px;
 }
-.caixa{
-	position: relative;
-	border-style: solid;
-  	max-width: 480px;
-	padding: 5px;
-}
+
 .caixa2{
+	font-size:2rem;
 	font-family: "literata", serif;
+	color: #0d0d0d;
+	background-color: #f26387;
+	height: 4rem;
+	width: 75%;
+	margin-bottom: 5%;
+	text-align: center;
 	position: relative;
-	font-size: 2rem;
-	text-align: center; 
-  	max-width: 480px;
-	padding: 5px;
+	top: 75%;
+	left: 15%;
+	border-radius: 15px;
 }
 .tem,.ntem {
 	width: 20px;
@@ -48,7 +49,7 @@
 .ul{
 	margin-top: 40px; 
 	max-width: 480px;
-	height: 500px;	
+	height: 400px;	
 }
 .li{
 	font-family: "lato", sans-serif;

@@ -1,3 +1,4 @@
+
 .body{
 	max-width: 80rem;
 	margin: 0 auto;
@@ -37,7 +38,7 @@
 	padding-right: 1rem;
 	font-family: "lato", serif;
 	position: relative;
-	top: 265px;
+	top: 12px;
 }
 
 .finalizar{
@@ -47,5 +48,5 @@
 	padding-right: 1rem;
 	font-family: "lato", serif;
 	position: relative;
-	top: 265px;
+	top:12px;
 }
