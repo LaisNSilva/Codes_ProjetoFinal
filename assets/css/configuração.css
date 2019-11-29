@@ -1,0 +1,29 @@
+.configuraçao-main{
+	background-color: #f2d7d7;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 50rem;
+
+}
+
+.configuraçao{
+	font-weight: bold;
+	font-family: "literata", serif;
+	font-size:2rem;
+	color: #f26378;
+	text-align: center;
+
+}
+
+.itens{
+	font-family: "lato", sans-serif;
+	font-size:1.1rem;
+	color: #0d0d0d;
+	margin-left: 0rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
+	background-color: #f2d7d7;
+	height: 500px;
+	color: black;
+
+}
