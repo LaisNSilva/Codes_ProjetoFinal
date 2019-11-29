@@ -2,7 +2,7 @@
 	background-color: #f2d7d7;
 	flex-wrap: wrap;
 	justify-content: center;
-	height: 50rem;
+	height: 100%;
 
 }
 
@@ -58,7 +58,7 @@
 }
 
 .finalizar{
-	background-color: #ffff38;
+	background-color: #f26387;;
 	font-size:2rem;
 	font-family: "literata", serif;
 	height: 3rem;
@@ -68,6 +68,7 @@
 	position: relative;
 	top: 75%;
 	left: 10%;
+	border-radius: 15px;
 }
 
 
