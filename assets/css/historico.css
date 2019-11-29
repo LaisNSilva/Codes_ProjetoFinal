@@ -1,9 +1,8 @@
 .historico{
-	position: absolute;
-	left: 25%;
-	top:10%;
-	margin-left: 5rem;
+	position: relative;
+	margin-left: 0rem;
 	margin-top: 2rem;
 	font-size: 1.5rem;
-	font-family: "lato", serif;
+	font-family: "literata", serif;
+	text-align: center;
 }
