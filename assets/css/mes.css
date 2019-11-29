@@ -32,21 +32,23 @@
 }
 
 .editar{
-	background-color: #ffff38;
+	background-color: #f26387;
 	text-align: end;
 	padding-top: 2rem;
 	padding-right: 1rem;
 	font-family: "lato", serif;
 	position: relative;
 	top: 12px;
+	border-radius: 15px;
 }
 
 .finalizar{
-	background-color: #ffff38;
+	background-color: #f26387;
 	text-align: end;
 	padding-top: 2rem;
 	padding-right: 1rem;
 	font-family: "lato", serif;
 	position: relative;
 	top:12px;
+	border-radius: 15px;
 }
