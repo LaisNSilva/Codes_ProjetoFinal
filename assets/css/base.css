@@ -32,7 +32,7 @@ body {
 }
 
 .topnav a.icon {
-  background: #f26387;
+  background: #EE6E8F;
   display: block;
   position: absolute;
   right: 10px;
@@ -45,7 +45,7 @@ body {
 }
 
 .active {
-  background-color: #f26387;
+  background-color: #EE6E8F;
   color: white;
 }
 

@@ -40,7 +40,7 @@
     margin-bottom: 7px;
     display: block;
     padding: 26px;
-    background-color: #ffff77;
+    background-color: #F2A0A7;
     text-decoration: none;
     color: #0d0d0d;
     text-align: center;
@@ -55,7 +55,7 @@
   }
   
   .sidemenu li a.active {
-    background-color: #ffff77;
+    background-color: #F2A0A7;
     color: #0d0d0d;
   }
 
