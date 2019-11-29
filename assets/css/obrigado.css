@@ -1,0 +1,9 @@
+.obg{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -5rem;
+	margin-top: -2rem;
+	font-size: 2rem;
+	font-family: "lato", serif;
+}
