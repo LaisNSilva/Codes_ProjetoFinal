@@ -16,4 +16,5 @@ document.addEventListener('DOMContentLoaded', function(){
 		    else if(iframe.webkitRequestFullscreen) {
 		      iframe.webkitRequestFullscreen()
 		    }
-})
+	})
+})	
