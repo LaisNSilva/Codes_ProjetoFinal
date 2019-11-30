@@ -30,25 +30,34 @@
 	padding: 2rem;
 	padding-left: 1rem;
 }
-
 .editar{
+	margin-top: 200px;
+	margin-left: 10px;
+	font-size:2rem;
+	font-family: "literata", serif;
+	color: #0d0d0d;
 	background-color: #f26387;
-	text-align: end;
-	padding-top: 2rem;
-	padding-right: 1rem;
-	font-family: "lato", serif;
-	position: relative;
-	top: 12px;
-	border-radius: 15px;
+	height: 3rem;
+	width: 90%;
+	margin-bottom: 5%;
+	text-align: center;
+	top: 75%;
+	left: 15%;
+	border-radius: 39px;
 }
 
 .finalizar{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size:2rem;
+	font-family: "literata", serif;
+	color: #0d0d0d;
 	background-color: #f26387;
-	text-align: end;
-	padding-top: 2rem;
-	padding-right: 1rem;
-	font-family: "lato", serif;
-	position: relative;
-	top:12px;
-	border-radius: 15px;
+	height: 3rem;
+	width: 90%;
+	margin-bottom: 5%;
+	text-align: center;
+	top: 75%;
+	left: 15%;
+	border-radius: 39px;
 }
